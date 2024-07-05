@@ -90,7 +90,7 @@ def explore_dataset(train_path: str, dev_path: str, test_path: str):
 
 def main():
     import sys
-    sys.path.append("aste")
+    sys.path.append("SpanASTE/aste")
     explore_dataset('synthetic/dataset/seed_50/train_final.txt', 'synthetic/dataset/seed_50/dev_final.txt',
                     'synthetic/dataset/seed_50/test_final.txt')
 

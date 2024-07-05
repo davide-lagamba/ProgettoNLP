@@ -17,7 +17,7 @@ Python 3.8
 Creare un virtual environment ed installare i requisiti nel file "requirements.txt"
 
 Eseguire il file "setup.py", che si occupa di importare il modello originale clonando la repository https://github.com/chiayewken/Span-ASTE,
-e modificando il file di configurazione per permettere di addestrare il modello senza l'utilizzo di CUDA
+e modificando i parametri di configurazione per permettere di addestrare il modello senza l'utilizzo di CUDA
 
 Il dataset deve essere inserito nell'apposita cartella "synthetic/dataset"
 
