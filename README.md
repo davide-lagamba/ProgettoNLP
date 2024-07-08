@@ -11,6 +11,15 @@ https://github.com/chiayewken/Span-ASTE
 
 https://github.com/yangheng95/ABSADatasets/tree/v2.0/datasets/acos_datasets/506.Synthetic
 
+### Comparison:
+Il file "comparison_ASTE.ipynb" è stato eseguito con Google Colab, e utilizza il framework PyABSA, con licenza MIT, e la sua documentazione:
+https://github.com/yangheng95/PyABSA
+https://pyabsa.readthedocs.io/en/latest/
+
+Le metriche di valutazione sono in questo caso calcolate come nel metodo "score" del file "aste/wrapper.py" della repository: https://github.com/chiayewken/Span-ASTE
+
+Per eseguire il codice in Google Colab, caricare un dataset con nome "test_final.txt" nella cartella "/content" del runtime.
+
 ### Requisiti:
 Python 3.8
 
